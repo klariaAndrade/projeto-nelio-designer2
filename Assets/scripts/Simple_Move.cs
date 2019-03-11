@@ -17,12 +17,8 @@ public class Simple_Move : MonoBehaviour
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
 
-        Vector3 velocity = new Vector3 (horizontalInput, verticalInput, 0f) *SpeedFactor
+        Vector3 velocity = new Vector3(horizontalInput, verticalInput, 0f) * SpeedFactor;
 
-        
-        float So = transform.position.x;
-        float S = So + horizontalInput * SpeedFactor * Time.deltaTime; 
-        transform.position = new Vector3(S , transform.position.y, transform.position.z);
-
+        transform.position = transform.position + velocity * Time.deltaTime;
     }
 }
