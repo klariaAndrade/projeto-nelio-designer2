@@ -5847,7 +5847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 710324914}
   m_Layer: 0
-  m_Name: coin
+  m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8890,7 +8890,7 @@ PrefabInstance:
     - target: {fileID: 8700039307529668189, guid: 80754428bfdea1f44a69a2ccf7a7be9b,
         type: 3}
       propertyPath: m_Name
-      value: coin
+      value: Coin
       objectReference: {fileID: 0}
     - target: {fileID: 8700039307529668176, guid: 80754428bfdea1f44a69a2ccf7a7be9b,
         type: 3}
