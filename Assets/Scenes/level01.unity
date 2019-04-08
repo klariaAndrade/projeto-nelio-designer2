@@ -722,6 +722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 294483882}
   - component: {fileID: 294483881}
+  - component: {fileID: 294483883}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -757,6 +758,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &294483883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294483880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38fe5cba0a927a5458d977758f2e3a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CoinParticles: {fileID: 9001173572953305537, guid: a7df4fa79ecff5a48b7e4ff526f3167b,
+    type: 3}
 --- !u!1001 &325555391
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4991,6 +5006,7 @@ GameObject:
   - component: {fileID: 408932774}
   - component: {fileID: 408932775}
   - component: {fileID: 408932773}
+  - component: {fileID: 408932776}
   m_Layer: 8
   m_Name: bird
   m_TagString: Untagged
@@ -5110,6 +5126,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0063073635, y: 0.0346905}
   m_Size: {x: 1.2573853, y: 1.2573853}
   m_Direction: 0
+--- !u!114 &408932776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408932770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b72ef126bbf08ef4e8d85166362f2601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &437043710
 PrefabInstance:
   m_ObjectHideFlags: 0
