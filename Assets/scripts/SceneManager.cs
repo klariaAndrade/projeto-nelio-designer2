@@ -11,6 +11,8 @@ public class SceneManager : MonoBehaviour
     [SerializeField]
     private Transform Tape = null; 
 
+    public UIcomponentes uiComponentes;
+
     void Awake(){
 
         Assert.IsNotNull(Tape); 
