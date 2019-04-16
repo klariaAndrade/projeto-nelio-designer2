@@ -15,8 +15,6 @@ public class UIcomponentes
         
         public Text txtCoinCount;
 
-        public Text txtLifeCount;
-
         [Header ("Other")]
 
         public GameObject panelHud;
