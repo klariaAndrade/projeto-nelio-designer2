@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3707541604870031447}
   - component: {fileID: 884797411399203379}
   - component: {fileID: 1365049332876201715}
+  - component: {fileID: 216477158581436807}
   m_Layer: 9
   m_Name: Arcane_Projectiles
   m_TagString: Projectiles
@@ -138,3 +139,16 @@ CircleCollider2D:
   m_Offset: {x: -0.028179377, y: 0.02012825}
   serializedVersion: 2
   m_Radius: 0.16731659
+--- !u!114 &216477158581436807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707541604870031444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2795efc222878c34db5a032240271f84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 1

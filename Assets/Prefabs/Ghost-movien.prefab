@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8980608376272797003}
   - component: {fileID: 8980608376272797000}
+  - component: {fileID: 4555453147651230219}
   m_Layer: 0
   m_Name: Ghost-movien
   m_TagString: Untagged
@@ -51,6 +52,31 @@ MonoBehaviour:
   pos2: {fileID: 8980608376925932413}
   waitTime: 0.5
   speed: 1
+--- !u!114 &4555453147651230219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8980608376272797002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491c3be417dad114284814ffd6bc9746, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3707541604870031444, guid: eed180e985a0d34469f161c9c82298d8, type: 3}
+  spawPoint: {fileID: 6151248791486308515}
+  waitTime: 3
+  projectileSpeed: 3
+  directions:
+  - {x: -1, y: 0, z: 0}
+  - {x: -0.7, y: 0.7, z: 0}
+  - {x: 0, y: 1, z: 0}
+  - {x: 0.7, y: 0.7, z: 0}
+  - {x: 1, y: 0, z: 0}
+  - {x: 0.7, y: -0.7, z: 0}
+  - {x: 0, y: -1, z: 0}
+  - {x: -0.7, y: -0.7, z: 0}
 --- !u!1 &8980608376431677716
 GameObject:
   m_ObjectHideFlags: 0
