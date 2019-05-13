@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8980608376272797003}
   - component: {fileID: 8980608376272797000}
   - component: {fileID: 4555453147651230219}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ghost-movien
-  m_TagString: Untagged
+  m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,7 +86,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8980608376431677717}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Pos1
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -116,7 +116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8980608376925932413}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Pos2
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
