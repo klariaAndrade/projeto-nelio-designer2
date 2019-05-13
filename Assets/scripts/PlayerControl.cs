@@ -14,12 +14,22 @@ public class PlayerControl : MonoBehaviour
       }
 
       else if(other.gameObject.layer == LayerMask.NameToLayer("Enimes")) {
+        KillPlayer();
+      }
+
+          else if(other.gameObject.layer == LayerMask.NameToLayer("Forbidden")) {
+          KillPlayer();
+      }
+      
+
+   }
+
+   void KillPlayer(){
           Camera.main.GetComponentInChildren<AudioSource>().mute = true;
           LevelManager.instance.SetTapeSpeed(0);
           AudioManager.instance.PlaySoundFail(gameObject);
           SFXManager.instance.ShowDieParticles(gameObject);
           Destroy(gameObject);
-      }
-
    }
 }
+

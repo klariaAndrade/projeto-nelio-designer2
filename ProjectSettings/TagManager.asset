@@ -7,6 +7,7 @@ TagManager:
   - Coin
   - Ghost
   - Projectiles
+  - Forbidden
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Coletibos
   - 'Platformes '
   - camera
-  - 
+  - Forbidden
   - 
   - 
   - 
